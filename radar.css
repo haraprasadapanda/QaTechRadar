@@ -1,0 +1,20 @@
+body {
+  font-family: 'Source Sans Pro', arial, helvetica, sans-serif;
+  padding-bottom: 50px;
+  background: radial-gradient(circle, rgb(13, 10, 80) 0%, rgb(17, 17, 163) 20%, rgb(44, 211, 245) 100%);
+}
+h3 {
+  margin-top: 50px;
+}
+li {
+  margin: 25px 50px 0 0;
+}
+table {
+  width: 1400px;
+  margin: 0 50px 0 50px;
+}
+td {
+  width: 50%;
+  vertical-align: top;
+  padding-right: 60px;
+}
