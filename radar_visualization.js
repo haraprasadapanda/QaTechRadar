@@ -11,7 +11,7 @@ radar_visualization({
   title: "Nuuday QA Radar",
   quadrants: [
     { name: "Languages" },
-    { name: "Infrastructure" },
+    { name: "Tools" },
     { name: "Frameworks" },
     { name: "Data Management" }
   ],
