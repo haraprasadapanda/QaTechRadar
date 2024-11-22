@@ -10,10 +10,10 @@ radar_visualization({
   },
   title: "QA Tech Radar",
   quadrants: [
-    { name: "Languages" },
-    { name: "Tools" },
-    { name: "Frameworks" },
-    { name: "Data Management" }
+    { name: "Platform & Infrastructure" },
+    { name: "Language & Framework" },
+    { name: "Techniques" },
+    { name: "Tools" }
   ],
   rings: [
     { name: "ADOPT", color: "#00FF7F" },
