@@ -8,7 +8,7 @@ radar_visualization({
     grid: "#808080",
     inactive: "#ddd"
   },
-  title: "QA Radar",
+  title: "QA Tech Radar",
   quadrants: [
     { name: "Languages" },
     { name: "Tools" },
