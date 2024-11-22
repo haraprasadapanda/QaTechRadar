@@ -1,7 +1,7 @@
 body {
   font-family: 'Source Sans Pro', arial, helvetica, sans-serif;
   padding-bottom: 50px;
-  background: radial-gradient(circle, rgb(13, 10, 80) 0%, rgb(17, 17, 163) 20%, rgb(44, 211, 245) 100%);
+  background: #ffffff;
 }
 h3 {
   margin-top: 50px;
