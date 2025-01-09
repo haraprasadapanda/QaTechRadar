@@ -10,10 +10,10 @@ radar_visualization({
   },
   title: "QA Tech Radar",
   quadrants: [
-    { name: "Platform & Infrastructure" },
-    { name: "Language & Framework" },
-    { name: "Techniques" },
-    { name: "Tools" }
+    { name: "Platform & Infrastructure(Q0)" },
+    { name: "Language & Framework(Q1)" },
+    { name: "Techniques(Q2)" },
+    { name: "Tools(Q3)" }
   ],
   rings: [
     { name: "ADOPT", color: "#00FF7F" },
@@ -25,670 +25,269 @@ radar_visualization({
   // zoomed_quadrant: 0,
   //ENTRIES
   entries: [
+    //Test Management
     {
       quadrant: 3,
       ring: 0,
-      label: "X",
+      label: "qTest",
       active: false,
       moved: 0
     },
     {
       quadrant: 3,
       ring: 0,
-      label: "X",
-      active: false,
-      link: "",
-      moved: 0
-    },
-    {
-      quadrant: 3,
-      ring: 1,
-      label: "X",
-      active: false,
-      moved: 0
-    },
-    {
-      quadrant: 3,
-      ring: 1,
-      label: "X",
-      active: false,
-      moved: 0
-    },
-    {
-      quadrant: 3,
-      ring: 1,
-      label: "X",
-      active: false,
-      link: "",
-      moved: 0
-    },
-    {
-      quadrant: 3,
-      ring: 1,
-      label: "X",
-      active: false,
-      moved: 0
-    },
-    {
-      quadrant: 3,
-      ring: 1,
-      label: "X",
-      active: false,
-      moved: 0
-    },
-    {
-      quadrant: 3,
-      ring: 2,
-      label: "X",
-      active: false,
-      moved: 0
-    },
-    {
-      quadrant: 3,
-      ring: 2,
-      label: "X",
+      label: "JIRA-PM",
       active: false,
       moved: 0
     },
     {
       quadrant: 3,
       ring: 3,
-      label: "X",
+      label: "JIRA-TM",
       active: false,
       moved: 0
     },
     {
       quadrant: 3,
       ring: 0,
-      label: "X",
+      label: "Azure DevOps",
       active: false,
       moved: 0
     },
     {
-      quadrant: 3,
-      ring: 0,
-      label: "X",
-      active: false,
-      link: "",
-      moved: 0
-    },
-    {
-      quadrant: 3,
-      ring: 0,
-      label: "X",
-      active: false,
-      link: "",
-      moved: 0
-    },
-    {
-      quadrant: 3,
-      ring: 0,
-      label: "X",
-      active: false,
-      moved: 0
-    },
-    {
-      quadrant: 3,
-      ring: 0,
-      label: "X",
-      active: false,
-      link: "",
-      moved: 0
-    },
-    {
-      quadrant: 3,
-      ring: 0,
-      label: "X",
-      active: false,
-      link: "",
-      moved: 0
-    },
-    {
-      quadrant: 3,
-      ring: 0,
-      label: "X",
-      active: false,
-      moved: 0
-    },
-    {
-      quadrant: 3,
-      ring: 1,
-      label: "X",
-      active: false,
-      moved: 0
-    },
-    {
-      quadrant: 3,
-      ring: 1,
-      label: "X",
-      active: false,
-      moved: 0
-    },
-    {
-      quadrant: 3,
-      ring: 2,
-      label: "X",
-      active: false,
-      moved: 0
-    },
-    {
-      quadrant: 3,
-      ring: 2,
-      label: "X",
-      active: false,
-      moved: 0
-    },
-    {
-      quadrant: 3,
-      ring: 2,
-      label: "X",
-      active: false,
-      moved: 0
-    },
-    {
-      quadrant: 3,
+      quadrant: 0,
       ring: 3,
-      label: "X",
+      label: "VMware",
       active: false,
       moved: 0
     },
     {
       quadrant: 3,
-      ring: 3,
-      label: "X",
-      active: false,
-      moved: 0
-    },
-    {
-      quadrant: 3,
-      ring: 3,
-      label: "X",
-      active: false,
-      moved: 0
-    },
-    {
-      quadrant: 3,
-      ring: 3,
-      label: "X",
-      active: false,
-      moved: 0
-    },
-    {
-      quadrant: 3,
-      ring: 3,
-      label: "X",
-      active: false,
-      moved: 0
-    },
-    {
-      quadrant: 3,
-      ring: 3,
-      label: "X",
-      active: false,
-      moved: 0
-    },
-    {
-      quadrant: 3,
-      ring: 3,
-      label: "X",
-      active: false,
-      moved: 0
-    },
-    {
-      quadrant: 3,
-      ring: 3,
-      label: "X",
+      ring: 0,
+      label: "MSTeam",
       active: false,
       moved: 0
     },
     {
       quadrant: 2,
       ring: 0,
-      label: "X",
+      label: "BDD",
       active: false,
       moved: 0
     },
     {
       quadrant: 2,
       ring: 0,
-      label: "X",
-      active: false,
-      link: "",
-      moved: 0
-    },
-    {
-      quadrant: 2,
-      ring: 0,
-      label: "X",
+      label: "Automation Test",
       active: false,
       moved: 0
     },
     {
       quadrant: 2,
       ring: 0,
-      label: "X",
-      active: false,
-      link: "",
-      moved: 0
-    },
-    {
-      quadrant: 2,
-      ring: 0,
-      label: "X",
+      label: "Performance Test",
       active: false,
       moved: 0
     },
     {
       quadrant: 2,
-      ring: 0,
-      label: "X",
+      ring: 1,
+      label: "TDD",
       active: false,
       moved: 0
     },
     {
       quadrant: 2,
       ring: 0,
-      label: "X",
+      label: "Exploratory Testing",
       active: false,
       moved: 0
     },
     {
       quadrant: 2,
       ring: 1,
-      label: "X",
+      label: "A/B Testing",
       active: false,
       moved: 0
     },
     {
       quadrant: 2,
       ring: 1,
-      label: "X",
-      active: false,
-      link: "",
-      moved: 0
-    },
-    {
-      quadrant: 2,
-      ring: 1,
-      label: "X",
+      label: "Risk-Based Test",
       active: false,
       moved: 0
     },
     {
       quadrant: 2,
       ring: 1,
-      label: "X",
+      label: "Chaos Engineering",
       active: false,
       moved: 0
     },
     {
       quadrant: 2,
-      ring: 1,
-      label: "X",
+      ring: 0,
+      label: "Regression Testing",
       active: false,
       moved: 0
     },
     {
       quadrant: 2,
-      ring: 1,
-      label: "X",
+      ring: 3,
+      label: "Waterfall Testing",
       active: false,
       moved: 0
     },
     {
       quadrant: 2,
-      ring: 1,
-      label: "X",
-      active: false,
-      moved: 0
-    },
-    {
-      quadrant: 2,
-      ring: 1,
-      label: "X",
+      ring: 0,
+      label: "Agile Testing",
       active: false,
       moved: 0
     },
     {
       quadrant: 2,
       ring: 2,
-      label: "X",
+      label: "ATDD",
       active: false,
       moved: 0
     },
     {
-      quadrant: 2,
-      ring: 2,
-      label: "X",
+      quadrant: 0,
+      ring: 0,
+      label: "Azure DevOps",
       active: false,
       moved: 0
     },
+    //CI-CD
     {
-      quadrant: 2,
-      ring: 2,
-      label: "X",
+      quadrant: 3,
+      ring: 0,
+      label: "Jenkin",
       active: false,
       moved: 0
     },
+
+    //Automation Testing
     {
-      quadrant: 2,
-      ring: 2,
-      label: "X",
-      active: false,
-      moved: 0
-    },
-    {
-      quadrant: 2,
-      ring: 2,
-      label: "X",
-      active: false,
-      moved: 0
-    },
-    {
-      quadrant: 2,
-      ring: 2,
-      label: "X",
-      active: false,
-      moved: 0
-    },
-    {
-      quadrant: 2,
-      ring: 2,
-      label: "X",
-      active: false,
-      moved: 0
-    },
-    {
-      quadrant: 2,
-      ring: 2,
-      label: "X",
-      active: false,
-      moved: 0
-    },
-    {
-      quadrant: 2,
-      ring: 3,
-      label: "X",
-      active: false,
-      moved: 0
-    },
-    {
-      quadrant: 2,
-      ring: 3,
-      label: "X",
-      active: false,
-      moved: 0
-    },
-    {
-      quadrant: 2,
-      ring: 3,
-      label: "X",
-      active: false,
-      moved: 0
-    },
-    {
-      quadrant: 2,
-      ring: 3,
-      label: "X",
-      active: false,
-      moved: 0
-    },
-    {
-      quadrant: 2,
-      ring: 3,
-      label: "X",
+      quadrant: 3,
+      ring: 1,
+      label: "Playwright",
       active: false,
       moved: 0
     },
     {
       quadrant: 1,
       ring: 0,
-      label: "X",
-      active: false,
-      link: "",
-      moved: 0
-    },
-    {
-      quadrant: 1,
-      ring: 0,
-      label: "X",
-      active: false,
-      moved: 0
-    },
-    {
-      quadrant: 1,
-      ring: 0,
-      label: "X",
-      active: false,
-      link: "",
-      moved: 0
-    },
-    {
-      quadrant: 1,
-      ring: 0,
-      label: "X",
-      active: false,
-      moved: 0
-    },
-    {
-      quadrant: 1,
-      ring: 0,
-      label: "X",
-      active: false,
-      moved: 1
-    },
-    {
-      quadrant: 1,
-      ring: 0,
-      label: "X",
-      active: false,
-      moved: 0
-    },
-    {
-      quadrant: 1,
-      ring: 0,
-      label: "X",
+      label: "Python",
       active: false,
       moved: 0
     },
     {
       quadrant: 1,
       ring: 1,
-      label: "X",
+      label: "Java",
       active: false,
       moved: 0
     },
     {
       quadrant: 1,
       ring: 1,
-      label: "X",
+      label: "C#",
+      active: false,
+      moved: 0
+    },
+    {
+      quadrant: 1,
+      ring: 1,
+      label: "TypeScript",
+      active: false,
+      moved: 0
+    },
+    {
+      quadrant: 0,
+      ring: 0,
+      label: "Docker",
+      active: false,
+      moved: 0
+    },
+    {
+      quadrant: 0,
+      ring: 0,
+      label: "Kubernetes",
+      active: false,
+      moved: 0
+    },
+    {
+      quadrant: 0,
+      ring: 0,
+      label: "Kubernetes",
+      active: false,
+      moved: 0
+    },
+    //Performance Testing
+    {
+      quadrant: 3,
+      ring: 2,
+      label: "JMeter",
+      active: false,
+      moved: 0
+    },
+    {
+      quadrant: 3,
+      ring: 2,
+      label: "Gatling",
+      active: false,
+      moved: 0
+    },
+    {
+      quadrant: 3,
+      ring: 2,
+      label: "Rest Assured",
       active: false,
       moved: 0
     },
     {
       quadrant: 1,
       ring: 2,
-      label: "X",
+      label: "Scala",
       active: false,
       moved: 0
     },
-    {
-      quadrant: 1,
-      ring: 3,
-      label: "X",
-      active: false,
-      link: "",
-      moved: -1
-    },
-    {
-      quadrant: 0,
-      ring: 0,
-      label: "X",
-      active: true,
-      link: "",
-      moved: 0
-    },
-    {
-      quadrant: 0,
-      ring: 0,
-      label: "X",
-      active: true,
-      link: "",
-      moved: 0
-    },
-    {
-      quadrant: 0,
-      ring: 0,
-      label: "X",
-      active: true,
-      link: "",
-      moved: 0
-    },
-    {
-      quadrant: 0,
-      ring: 0,
-      label: "X",
-      active: true,
-      link: "",
-      moved: 0
-    },
-    {
-      quadrant: 0,
-      ring: 0,
-      label: "X",
-      active: true,
-      link: "",
-      moved: 0
-    },
-    {
-      quadrant: 0,
-      ring: 0,
-      label: "X",
-      active: true,
-      link: "",
-      moved: 0
-    },
-    {
-      quadrant: 0,
-      ring: 0,
-      label: "X",
-      active: true,
-      link: "",
-      moved: 0
-    },
-    {
-      quadrant: 0,
-      ring: 3,
-      label: "X",
-      active: true,
-      link: "",
-      moved: -1
-    },
-    {
-      quadrant: 0,
-      ring: 1,
-      label: "X",
-      active: true,
-      link: "",
-      moved: 1
-    },
-    {
-      quadrant: 0,
-      ring: 3,
-      label: "X",
-      active: true,
-      link: "",
-      moved: -1
-    },
-    {
-      quadrant: 0,
-      ring: 1,
-      label: "X",
-      active: true,
-      moved: 0
-    },
-    {
-      quadrant: 0,
-      ring: 1,
-      label: "X",
-      active: true,
-      link: "",
-      moved: 0
-    },
-    {
-      quadrant: 0,
-      ring: 2,
-      label: "X",
-      active: true,
-      moved: 0
-    },
-    {
-      quadrant: 0,
-      ring: 3,
-      label: "X",
-      active: true,
-      link: "",
-      moved: -1
-    },
-    {
-      quadrant: 3,
-      ring: 0,
-      label: "X",
-      active: false,
-      moved: 0
-    },
-    {
-      quadrant: 3,
-      ring: 0,
-      label: "X",
-      active: false,
-      moved: 0
-    },
-    {
-      quadrant: 3,
-      ring: 0,
-      label: "X",
-      active: false,
-      link: "",
-      moved: 0
-    },
-    {
-      quadrant: 3,
-      ring: 0,
-      label: "X",
-      active: false,
-      link: "",
-      moved: 0
-    },
-    {
-      quadrant: 3,
-      ring: 1,
-      label: "X",
-      active: false,
-      link: "",
-      moved: 0
-    },
+    //API Testing
     {
       quadrant: 3,
       ring: 2,
-      label: "X",
+      label: "Postman",
       active: false,
       moved: 0
     },
-    {
-      quadrant: 3,
-      ring: 3,
-      label: "X",
-      active: false,
-      moved: 0
-    },
-    {
-      quadrant: 3,
-      ring: 3,
-      label: "X",
-      active: false,
-      moved: 0
-    },
-  ]
-  //ENTRIES
+    
+  
+  //Code Quality
+  {
+    quadrant: 0,
+    ring: 0,
+    label: "SonarQube",
+    active: false,
+    moved: 0
+  },
+
+  //Test Data Management
+  {
+    quadrant: 0,
+    ring: 0,
+    label: "SQL DB",
+    active: false,
+    moved: 0
+  },
+  {
+    quadrant: 1,
+    ring: 0,
+    label: "SQL",
+    active: false,
+    moved: 0
+  },
+
+]
 });
